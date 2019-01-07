@@ -13,8 +13,7 @@ let Indicator = function() {
     this.historyData = [];
     this.historyMax = 20;
     this.state = 'none';
-    this.perfectSetup = null;
-    this.resetState();
+    this.perfectSetup = false;
     this.result = {numberOfCountdowns: 0, countdownType: null, perfectSetup: false};
     console.log('TDM_Seq: indicator initialised');
 };
