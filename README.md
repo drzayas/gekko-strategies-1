@@ -21,4 +21,4 @@ https://oxfordstrat.com/trading-strategies/td-sequential-1/
 * [scubix](https://github.com/scubix)
 * [hurly](https://github.com/HurlyDesousa)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/scubix/gekko-strategies/graphs/contributors) who participated in this project.
