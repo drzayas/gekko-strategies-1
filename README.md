@@ -1,6 +1,6 @@
 # gekko-strategies-TD Sequential
 
-TD Sequential | Trading Indicator
+## TD Sequential | Trading Indicator
 
 https://oxfordstrat.com/indicators/td-sequential-2/
 
@@ -9,9 +9,16 @@ https://oxfordstrat.com/indicators/td-sequential-2/
 
 
 
-
-
-
-TD Sequential | Trading Strategy
+## TD Sequential | Trading Strategy
 
 https://oxfordstrat.com/trading-strategies/td-sequential-1/
+
+
+
+
+## Authors
+
+* [scubix](https://github.com/scubix)
+* [hurly](https://github.com/HurlyDesousa)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
