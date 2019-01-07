@@ -8,6 +8,10 @@ https://oxfordstrat.com/indicators/td-sequential-2/
 
 http://practicaltechnicalanalysis.blogspot.com/2013/01/tom-demark-sequential.html
 
+TD Sequential indicator consist of two components. TD Setup is the first one and it is a prerequisite for the TD Countdown – the second component.
+
+TD Setup compares the current close with the corresponding close four bars earlier. There must be nine consecutive closes higher/lower than the close four bars earlier.
+
 
 
 
