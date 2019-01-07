@@ -4,7 +4,7 @@
 
 https://oxfordstrat.com/indicators/td-sequential-2/
 
-
+http://practicaltechnicalanalysis.blogspot.com/2013/01/tom-demark-sequential.html
 
 
 
