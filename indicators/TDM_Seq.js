@@ -38,7 +38,6 @@ Indicator.prototype.addToHistoryData = function(candle) {
 Indicator.prototype.updateCounters = function() {
     //First detect price flips
     //Bearish Price Flip - occurs when the market records a close greater than the close four bars earlier, immediately followed by a close less than the close four bars earlier.
-
     if(
         (this.historyData[1].close > this.historyData[5].close) &&
         (this.historyData[0].close < this.historyData[4].close)
@@ -46,6 +45,7 @@ Indicator.prototype.updateCounters = function() {
         console.log("TDM_Seq Indicator: Bearish price flip detected at " + JSON.stringify(this.historyData[0]));
         this.bearishPriceFlip = true;
     }
+
     //Bullish Price Flip - occurs when the market records a close less than the close four bars before, immediately followed by a close greater than the close four bars earlier.
     if(
         (this.historyData[1].close < this.historyData[5].close) &&
@@ -57,9 +57,11 @@ Indicator.prototype.updateCounters = function() {
 
 };
 
-Indicator.prototype.resetState = function() {
+Indicator.prototype.resetCounters = function() {
     this.state = 'none';
     this.perfectSetup = false;
+    this.bearishPriceFlip = false;
+    this.bullishPriceFlip = false;
 };
 
 module.exports = Indicator;
