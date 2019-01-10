@@ -1,6 +1,28 @@
 // Let's create our own strategy
 let strategy = {};
 
+/*
+if (currentcandlenumber > previouscandlenumber && currentprice > highestpriceoflastcandel) {
+  set a limit buy order at current price
+  if (buyorder is set) {
+    set a stoploss at the lowestprice of previous candle
+    if (currenturrentcandelnumber != greencount || currenturrentcandelnumber == green9) {
+      set a limit sell order at current price
+    }
+  }
+}
+if (currentcandlenumber < previouscandlenumber && currentprice < lowestpriceoflastcandel) {
+  set a limit short order at current price
+  if (buyorder is set) {
+    set a stoploss at the highestprice of previous candle
+    if (currenturrentcandelnumber != redcount || currenturrentcandelnumber == red9) {
+      set a limit buy order at current price
+    }
+  }
+}
+
+*/
+
 // Prepare everything our strat needs
 strategy.init = function() {
     // your code!
