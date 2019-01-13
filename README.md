@@ -52,3 +52,8 @@ Entry after reversal
 * [hurly](https://github.com/HurlyDesousa)
 
 See also the list of [contributors](https://github.com/scubix/gekko-strategies/graphs/contributors) who participated in this project.
+
+
+## Want to join?
+
+* offer your help here at our discord server. https://discord.gg/2zn9UPz
